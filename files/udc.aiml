@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <aiml version="2.0">
+<category>
+<pattern>*</pattern>
+<template>
+    <link>
+        <text>
+            <random>
+                <li>Click here! </li>
+                
+            </random>
+        </text>
+        <url>https://you.com/codesearch?q=<star/>&fromSearchBar=true&tbm=youcode</url>
+    </link>
+</template>
+</category>
+</aiml>
